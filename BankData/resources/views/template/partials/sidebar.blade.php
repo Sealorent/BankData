@@ -4,7 +4,7 @@
             <div class="pcoded-navigation-label">Menu</div>
             <ul class="pcoded-item pcoded-left-item">
                 <li class="{{ Request::segment(1) == 'bank-data' ? 'active' : '' }}">
-                    <a href="{{ route('BankData.index') }}" class="waves-effect waves-dark">
+                    <a href="" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
                             <i class="fa fa-archive"></i>
                         </span>
@@ -12,7 +12,7 @@
                     </a>
                 </li>
                 <li class="{{ Request::segment(1) == 'data-spatial' ? 'active' : '' }}">
-                    <a href="{{ route('DataSpatial.index') }}" class="waves-effect waves-dark">
+                    <a href="" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
                             <i class="fa fa-globe"></i>
                         </span>

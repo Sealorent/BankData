@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\BankDataController;
 use App\Http\Controllers\DataSpasialController;
+use App\Http\Controllers\Fronend\HomeController;
+use App\Http\Controllers\Frontend\HomeController as FrontendHomeController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +18,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('login');
+
+Route::get('/', [FrontendHomeController::class, 'index'])->name('home.index');
+
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/bank-data', [BankDataController::class, 'index'])->name('BankData.index');
+    Route::get('/data-spasial', [DataSpasialController::class, 'index'])->name('DataSpasial.index');
 });
 
-Route::get('/bank-data', [BankDataController::class, 'index'])->name('BankData.index');
-Route::get('/data-spatial', [DataSpasialController::class, 'index'])->name('DataSpatial.index');
+require __DIR__ . '/auth.php';

@@ -102,7 +102,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <!-- Authentication card start -->
-                    <form class="md-float-material form-material">
+                    <form class="md-float-material form-material" action="{{ route('login') }}" method="POST">
+                        @csrf
                         <div class="text-center">
                             <img src="{{ asset('assets/images/logo.png') }}" alt="logo.png">
                         </div>
@@ -131,7 +132,7 @@
                                 </div>
                                 <p class="text-muted text-center p-b-5">Sign in with your regular account</p>
                                 <div class="form-group form-primary">
-                                    <input type="text" name="user-name" class="form-control" required=""
+                                    <input type="text" name="email" class="form-control" required=""
                                         placeholder="e-mail">
                                     {{-- <span class="form-bar"></span> --}}
                                     {{-- <label class="form-label float-label">Username</label> --}}
@@ -161,9 +162,8 @@
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
                                         <div class="d-grid">
-                                            <a class="btn btn-primary btn-md waves-effect text-center m-b-20"
-                                                href="{{ route('BankData.index') }}">LOGIN</a>
-                                            {{-- <button type="button" class=""></button> --}}
+                                            <button type="submit"
+                                                class="btn btn-primary btn-md waves-effect text-center m-b-20">LOGIN</button>
                                         </div>
                                     </div>
                                 </div>
