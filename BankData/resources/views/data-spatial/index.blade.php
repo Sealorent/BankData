@@ -55,21 +55,21 @@
                     <div class="card-block">
                         <div class="dt-responsive table-responsive">
                             <table class="table table-striped table-bordered nowrap">
-                                <thead>
+                                <thead align="center">
                                     <tr>
-                                        <th style="width: 2%">#</th>
-                                        <th style="width: 5%">Kode Sampel</th>
+                                        <th style="width: 1%">#</th>
+                                        <th style="width: 4%">Kode Sampel</th>
                                         <th style="width: 3% ">Virus</th>
-                                        <th style="width: 4%;">Genotipe dan Subtipe
-                                        </th>
-                                        <th style="width: 3%">Tanggal</th>
-                                        <th style="width: 5%">Tempat</th>
-                                        <th style="width: 9%;">Data Sekuen</th>
-                                        <th style="width: 5%">Judul</th>
-                                        <th style="width: 5%">Author</th>
+                                        <th style="width: 4%;">Genotipe dan Subtipe</th>
+                                        <th style="width: 4%">Gene</th>
+                                        <th style="width: 4%">Bulan/Tahun Sampel</th>
+                                        <th style="width: 5%;">Tempat Pengambilan</th>
+                                        <th style="width: 5%">Area Pengambilan</th>
+                                        <th style="width: 5%">Kota Pengambilan</th>
+                                        <th style="width: 5%">Provinsi Pengambilan</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody align="center">
                                     <tr>
                                         <td style="width: 5%">1</td>
                                         <td style="width: 5%">MT163520</td>
@@ -77,41 +77,24 @@
                                         <td style="width: 5%">CRF01_AE</td>
                                         <td style="width: 5%">Agustus 2018</td>
                                         <td style="width: 5%">Medan, Sumatra utara</td>
-                                        <td style="width: 5%;">Pol gene
-                                            <br>
-                                            ccaattagcc ctattgacac tgtaccagta acattaaagc caggaatgga tggaccaaag gtcaaacagt
-                                            ggccattgac agaagaaaaa ataaaagcat taacagaaat ttgtaatgag atggaaaagg aaggaaaaat
-                                            ctcaaaaatt gggcctgaaa atccatacaa tactccaata tttgctataa agaaaaagga tggcactaaa
-                                            tggaggaagt tagtagattt cagagagctc aataaaagaa ctcaagactt ttgggaagtt caattaggaa
-                                            taccacatcc agcaggctta aaaaagaaaa aatcagtaac agtactagat gtgggagatg catatttttc
-                                            agttccttta gatgaaaact ttagaaagta tactgcattc accataccta gtataaataa tgaaacacca
-                                            ggagtcagat atcagtacaa tgtgctacca cagggatgga aaggatcacc agcaatattc cagagtagca
-                                            tgacaaaaat cttagagccc tttagaataa aaaatccaga aatgattatc tatcaataca tggatgactt
-                                            gtatgtagga tctgatttag aaatagggca gcacagaaga
-                                            aaaatagagg agctgagagc tcatctattg aattggggat ttactacacc agacaaaaag catcagaagg
-                                            aacctccatt cctttggatg ggatatgaac ttcatcctga caaatggaca gtccagccta tacagttgcc
-                                            agaaaaagac agttggactg tc
-                                        </td>
-                                        <td style="width: 5%">The Dominance of CRF01_AE and the Emergence of Drug
-                                            Resistance Mutations
-                                            Among Antiretroviral Therapy-Experienced, HIV-1 infected Individuals in
-                                            Medan, Indonesia</td>
-                                        <td style="width: 5%">Indriati, Dwi W.; Witaningrum, Adiana M.; Yunifiar, M.
-                                            Qushai; Khairunisa,
-                                            Siti Q.; Ueda, Shuhei; Kotaki, Tomohiro; Nasronudin, Kameoka, Masanori.</td>
+                                        <td style="width: 5%;">Pol gene</td>
+                                        <td style="width: 5%">-888888888 & -111111111</td>
+                                        <td style="width: 5%">Monaco</td>
+                                        <td style="width: 5%">Masanori</td>
                                     </tr>
                                 </tbody>
-                                <tfoot>
+                                <tfoot align="center">
                                     <tr>
-                                        <th style="width: 5%">#</th>
+                                        <th style="width: 1%">#</th>
                                         <th style="width: 5%">Kode Sampel</th>
-                                        <th style="width: 5%">Virus</th>
-                                        <th style="width: 5%">Genotipe dan Subtipe</th>
-                                        <th style="width: 5%">Tanggal</th>
-                                        <th style="width: 5%">Tempat</th>
-                                        <th style="width: 5%">Data Sekuen</th>
-                                        <th style="width: 5%">Judul</th>
-                                        <th style="width: 5%">Author</th>
+                                        <th style="width: 3% ">Virus</th>
+                                        <th style="width: 4%;">Genotipe dan Subtipe</th>
+                                        <th style="width: 3%">Gene</th>
+                                        <th style="width: 5%">Bulan/Tahun Sampel</th>
+                                        <th style="width: 9%;">Tempat Pengambilan</th>
+                                        <th style="width: 5%">Area Pengambilan</th>
+                                        <th style="width: 5%">Kota Pengambilan</th>
+                                        <th style="width: 5%">Provinsi Pengambilan</th>
                                     </tr>
                                 </tfoot>
                             </table>

@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [FrontendHomeController::class, 'index'])->name('home.index');
+Route::get('/show', [FrontendHomeController::class, 'data'])->name('home.data');
 
 
 Route::middleware('auth')->group(function () {
