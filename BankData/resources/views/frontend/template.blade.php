@@ -58,7 +58,7 @@
                             <path d="M21 21l-5.2-5.2" />
                         </svg>
                     </a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="{{ route('register') }}">Sign up</a>
                 </div>
             </div>
         </header>

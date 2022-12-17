@@ -114,22 +114,6 @@
                                         <h3 class="text-center txt-primary">Sign In</h3>
                                     </div>
                                 </div>
-                                <div class="row m-b-20">
-                                    <div class="col-md-6">
-                                        <div class="d-grid">
-                                            <button class="btn btn-facebook m-b-20">
-                                                <i class="icofont icofont-social-facebook"></i>facebook
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="d-grid">
-                                            <button class="btn btn-twitter m-b-20">
-                                                <i class="icofont icofont-social-twitter"></i>twitter
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
                                 <p class="text-muted text-center p-b-5">Sign in with your regular account</p>
                                 <div class="form-group form-primary">
                                     <input type="text" name="email" class="form-control" required=""
@@ -168,7 +152,7 @@
                                     </div>
                                 </div>
                                 <p class="text-inverse text-start">Don't have an account?<a
-                                        href="auth-sign-up-social.html"> <b>Register here </b></a>for free!</p>
+                                        href="{{ route('register') }}"> <b>Register here </b></a>for free!</p>
                             </div>
                         </div>
                     </form>
